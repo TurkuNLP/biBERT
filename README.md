@@ -62,8 +62,7 @@ Evaluation on the same corpora used in POS-tagging: TDT, FTB, and PUD
 
 Labeled attachment score (LAS) parsing results for predicted (p.seg.) and gold (g.seg.) segmentation.
 
-|                   |         TDT       |        FTB        |        PUD        |
-|       Model       |   <ul><li>TDT</li><li>p.seg. g.seg.</li></ul>   |   <ul><li>FTB</li><li>p.seg. g.seg.</li></ul>   |   <ul><li>PUD</li><li>p.seg. g.seg.</li></ul>   |
+|       Model       |   <p>TDT<br>p.seg. g.seg.</p>   |   <p>FTB<br>p.seg. g.seg.</p>   |   <p>PUD<br>p.seg. g.seg.</p>   |
 |-------------------|-------------------|-------------------|-------------------|
 | **FinBERT**       | **91.93% 93.56%** | **92.16% 93.95%** | **92.54% 93.10%** |
 | biBERT 70k	    |   91.35% 92.93%   |   91.68% 93.49%   |   92.18% 92.74%   |
