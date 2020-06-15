@@ -23,7 +23,7 @@ biBERTs are trained on both English and Finnish data (no parallel corpus is used
 
 ### Document classification
 
-![learning curves for Yle and Ylilauta document classification](https://raw.githubusercontent.com/fshdnc/biBERT/master/img/yle-ylilauta-curves.png)
+![learning curves for Yle and Ylilauta document classification](https://raw.githubusercontent.com/TurkuNLP/biBERT/master/img/yle-ylilauta-curves.png)
 
 [[code](https://github.com/spyysalo/finbert-text-classification)][[Yle data](https://github.com/spyysalo/yle-corpus)] [[Ylilauta data](https://github.com/spyysalo/ylilauta-corpus)]
 
@@ -62,8 +62,8 @@ Evaluation on the same corpora used in POS-tagging: TDT, FTB, and PUD
 
 Labeled attachment score (LAS) parsing results for predicted (p.seg.) and gold (g.seg.) segmentation.
 
-| Model             |         TDT       |        FTB        |        PUD        |
-|                   |   p.seg. g.seg.   |   p.seg. g.seg.   |   p.seg. g.seg.   |
+|                   |         TDT       |        FTB        |        PUD        |
+|       Model       |   p.seg. g.seg.   |   p.seg. g.seg.   |   p.seg. g.seg.   |
 |-------------------|-------------------|-------------------|-------------------|
 | **FinBERT**       | **91.93% 93.56%** | **92.16% 93.95%** | **92.54% 93.10%** |
 | biBERT 70k	    |   91.35% 92.93%   |   91.68% 93.49%   |   92.18% 92.74%   |
